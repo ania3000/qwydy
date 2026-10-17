@@ -1,6 +1,6 @@
 # Qwydy
 
-**Qwydy** is an experimental programming language based on Iron Ossetic.
+**Qwydy** (хъуыды) is an experimental programming language based on Iron Ossetic.
 
 The project is currently in an early development stage. It includes a lexer, a parser, and a basic interpreter written in Rust.
 
