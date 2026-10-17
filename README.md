@@ -1,6 +1,6 @@
 # Qwydy
 
-**Qwydy** is an experimental programming language based on Iron Ossetian.
+**Qwydy** is an experimental programming language based on Iron Ossetic.
 
 The project is currently in an early development stage. It includes a lexer, a parser, and a basic interpreter written in Rust.
 
@@ -16,14 +16,13 @@ The project is currently in an early development stage. It includes a lexer, a p
 ## Example
 
 ```text
-функци главная() {
-    ивгӕ число = 42;
-
-    кӕд число == 42 {
-        ивгӕ результат = число + 8;
-        вывод(результат);
+функци сӕйраг() {
+    ивгӕ нымӕц = 42;
+    кӕд нымӕц == 42 {
+        ивгӕ дзуапп = нымӕц + 8;
+        мыхуыр(дзуапп);
     } æндæра {
-        вывод(0);
+        мыхуыр(0);
     }
 }
 ```
@@ -46,7 +45,7 @@ cargo +stable-gnu run -- hello.qw
 To inspect tokens:
 
 ```powershell
-cargo +stable-gnu run -- --tokens hello.qw
+cargo +stable-gnu run -- --tokens first.qw
 ```
 
 ## Status
